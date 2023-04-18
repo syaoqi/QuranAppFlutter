@@ -1,0 +1,39 @@
+name: alquran
+version: 1.0.0+1
+publish_to: none
+description: A new Flutter project.
+environment: 
+  sdk: '>=2.19.0 <3.0.0'
+
+dependencies: 
+  cupertino_icons: ^1.0.2
+  get: 4.6.5
+  http: 0.13.5
+  lottie: 2.2.0
+  get_storage: 2.1.1
+  sqflite: 2.2.6
+  path_provider: 2.0.14
+  scroll_to_index: 3.0.1
+  flutter: 
+    sdk: flutter
+
+dev_dependencies: 
+  flutter_lints: 2.0.1
+  flutter_test: 
+    sdk: flutter
+
+flutter: 
+  fonts: 
+    - family: Quran-Regular
+      fonts: 
+        - asset: assets/fonts/Quran-Regular.ttf
+    - family: PoppinsRegular
+      fonts: 
+        - asset: assets/fonts/PoppinsRegular.ttf
+        
+       
+  assets: 
+    - assets/lotties/
+    - assets/logo/
+  uses-material-design: true
+
